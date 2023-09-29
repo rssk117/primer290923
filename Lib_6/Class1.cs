@@ -27,6 +27,7 @@ namespace Lib_6
 
                 if (value == lastValue) break;
                 lastValue = value;
+                lastValue = value;
             }
 
         }

@@ -26,6 +26,8 @@ namespace Практическая_работа__1
         private void btn_Info(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Копенкин Егор ИСП-31");
+            MessageBox.Show("Копенкин Егор ИСП-31");
+            MessageBox.Show("Копенкин Егор ИСП-31");
         }
 
         private void btn_Exit(object sender, RoutedEventArgs e)
@@ -36,6 +38,7 @@ namespace Практическая_работа__1
         private void btn_DoSomethingplz(object sender, RoutedEventArgs e)
         {
             string values ="", results="";
+            values = ""; results = "";
 
             Work1.Function1(ref values, ref results);
 
